@@ -1,0 +1,53 @@
+/* FHIR family-specific colors */
+:root {
+  --navbar-bg-color: #002B6C; /* 2. Header container color */
+  --footer-container-bg-color: #002B6C; /* 4. Footer container color */
+  --btn-hover-color: #0041A2;  /* 6. Menu button hover color */
+  --btn-active-color: #FFFFFF; /* 7. Menu button active color */
+  --ig-status-text-color: #002B6C; /* The color of the text in the top header */
+  --toc-box-bg-color: #DDF0FF;
+  --footer-highlight-text-color: #FFFFFF;
+  /*
+  --publish-box-bg-color: #FFC72C;
+  */
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: var(--navbar-bg-color);
+}
+
+.nav-tabs {
+  border-bottom-color: var(--navbar-bg-color);
+}
+
+.nav-tabs > li > a {
+  border-color: transparent;
+}
+
+.nav-tabs > li.active > a {
+  border-color: var(--navbar-bg-color);
+  border-bottom-color: transparent;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: var(--navbar-bg-color);
+}
+
+#family-logo {
+  padding-right: 1em;
+}
+
+pre.json,
+pre.xml,
+pre.rdf {
+  width: auto;
+  overflow: scroll !important;
+}
+
+div#segment-content > div.container > div.row > div.inner-wrapper > div.col-12 > div[markdown="1"] {
+  max-width: 100%;
+}
