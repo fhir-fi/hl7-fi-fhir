@@ -37,6 +37,14 @@
         "date" : "2023-07-12",
         "path" : "https://hl7.fi/fhir/finnish-smart/1.0.0-rc9"
       }
+    },
+    {
+      "path" : "finnish-scheduling/package-list.json",
+      "package-id" : "hl7.fhir.fi.scheduling",
+      "title" : "Finnish Scheduling",
+      "canonical" : "https://hl7.fi/fhir/finnish-scheduling",
+      "category" : "Workflow",
+      "ci-build" : "https://fhir.fi/finnish-scheduling/"
     }
   ]
 }

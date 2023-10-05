@@ -16,6 +16,11 @@
       "npm" : "hl7.fhir.fi.base",
       "canonical" : "https://hl7.fi/fhir/finnish-base-profiles",
       "destination" : "finnish-base-profiles"
+    },
+    {
+      "npm" : "hl7.fhir.fi.scheduling",
+      "canonical" : "https://hl7.fi/fhir/finnish-scheduling",
+      "destination" : "finnish-scheduling"
     }
   ],  
   "feeds" : {
