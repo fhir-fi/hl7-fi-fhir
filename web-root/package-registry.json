@@ -44,7 +44,18 @@
       "title" : "Finnish Scheduling",
       "canonical" : "https://hl7.fi/fhir/finnish-scheduling",
       "category" : "Workflow",
-      "ci-build" : "https://fhir.fi/finnish-scheduling/"
+      "ci-build" : "https://fhir.fi/finnish-scheduling",
+      "version-count" : 1,
+      "latest" : {
+        "version" : "0.1.0",
+        "date" : "2023-10-05",
+        "path" : "https://hl7.fi/fhir/finnish-scheduling/0.1.0"
+      },
+      "milestone" : {
+        "version" : "0.1.0",
+        "date" : "2023-10-05",
+        "path" : "https://hl7.fi/fhir/finnish-scheduling/0.1.0"
+      }
     }
   ]
 }
