@@ -1,2 +1,8 @@
-
 .DS_Store
+
+# Build / output
+*.log
+*.tmp
+
+# OS
+Thumbs.db
